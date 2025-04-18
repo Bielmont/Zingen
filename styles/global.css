@@ -13,7 +13,7 @@
 }
 
 :root {
----bg-color: #09090B;   
+--bg-color: #09090B;   
 --surface-color: #18181B;
 --stroke-color: #27272A;
 --text-secpondary: #A1A1AA;
@@ -39,7 +39,7 @@
 --py-lg: 1.5rem;
 --py-xl: 3rem;
 --px-lg: 1.5rem;
-}re
+}
 
 html {
     font-family: var(--ff-sans,);
@@ -51,7 +51,7 @@ html {
 
 
 body {
-    background-color: var(---bg-color);
+    background-color: var(--bg-color);
 }
 
 h1, h2, h3 {
