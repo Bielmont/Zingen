@@ -21,7 +21,7 @@
    }
 }
 
-@media (width >= 80em) {
+@media (width >= 80rem) {
     #hero {
        background: url("../assets/illustration-de-fundo.png") no-repeat bottom center/contain;
        padding: 15rem;
