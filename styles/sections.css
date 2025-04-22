@@ -4,30 +4,30 @@
 }
 
 section {
-  &  header {
-    & strong {
-     display: block;
-     font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
-     letter-spacing: 0.08em;
-     text-transform: uppercase;
+    & header {
+        & strong {
+            display: block;
+            font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
 
-     color: var(--brand-color-primary);
-    }
+            color: var(--brand-color-primary);
+        }
 
-    & h2{
-        margin-top: .5rem;
+        & h2 {
+            margin-top: .5rem;
 
-    }
+        }
 
     }
 
     & p {
-      margin-top: .5rem;
-      color: var(--text-secondary);
+        margin-top: .5rem;
+        color: var(--text-secondary);
     }
 }
 
-@media (width >= 80rem) {
+@media (width >=80rem) {
     #smartphones-img {
         display: none;
     }
