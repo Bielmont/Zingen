@@ -17,8 +17,8 @@ footer {
 
     & .top ul {
         align-content: start;
-       } 
-    
+    }
+
 
     & .title {
         font-size: 0.75rem;
@@ -30,7 +30,7 @@ footer {
     & .bottom {
         flex-wrap: wrap;
 
-        & > div {
+        &>div {
             margin-right: auto;
         }
 
@@ -39,7 +39,7 @@ footer {
         }
     }
 
-    @media (width >= 80rem) {
+    @media (width >=80rem) {
         .container {
             padding-inline: 0;
             padding-bottom: 2rem;
